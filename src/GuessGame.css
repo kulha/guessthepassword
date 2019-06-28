@@ -1,0 +1,40 @@
+.hint {
+    border-style: dotted;
+    width: 80%;
+    font-size:5vw;
+    letter-spacing: 0.3em;
+    align-self: center
+}
+.title {
+    font-size:5vw;
+    font-weight: 900;
+}
+@media screen and (min-width: 600px) {
+    .hint, .title{
+        font-size:28px;
+    }
+}
+.answer {
+    width: 80%;
+    letter-spacing: 0.3em;
+}
+.bottom-elements{
+    width:100%;
+    position: fixed;
+    bottom: 10px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }

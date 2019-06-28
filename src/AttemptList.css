@@ -1,0 +1,34 @@
+.highlight{
+    color:white;
+    background-color: rgb(178, 235, 235);
+}
+.attempt-item{
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align:center;
+}
+.attempt-char{
+    font-size:6vw;
+    vertical-align: 0% !important;
+    padding:2vw !important;
+
+}
+@media screen and (min-width: 600px) {
+    .attempt-char{
+        font-size:32px;
+    }
+}
+.attempt-table{
+    margin-top:3vw;
+    table-layout:fixed;
+    width:90% !important;
+    border-collapse:separate;
+    border:solid black 1px !important;
+    border-radius:6px;
+}
+.table-scroll {
+    overflow-y: scroll; 
+    /* height:75vw; */
+    width:100%;
+    height: 70vh;
+}
