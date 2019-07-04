@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import GuessGame from './GuessGame';
+import GuessGame from './components/GuessGame/GuessGame';
 export default class App extends Component {
     render() {
         let serverBaseUrl = "http://localhost:4000";

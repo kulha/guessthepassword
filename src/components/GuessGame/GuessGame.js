@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
-import AttemptList from './AttemptList';
+import AttemptList from '../AttemptList/AttemptList';
 import axios from 'axios';
 import './GuessGame.css'
 export default class GuessGame extends Component {
